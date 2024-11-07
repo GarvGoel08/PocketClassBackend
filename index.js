@@ -4,6 +4,8 @@ const app = express();
 const userRoutes = require("./routes/userRoute");
 const slotRoutes = require("./routes/slotRoute");
 const bookingRoutes = require("./routes/bookingRoute");
+require('dotenv').config();
+
 
 app.use(cors());
 app.use(express.json());
